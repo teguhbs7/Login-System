@@ -28,7 +28,7 @@ function getInfo() {
 
         function btntest_onclick(){
             window.location.href = "https://support-fs.blogspot.com/";
-		alert("Tunggu Sebentar");
+		//alert("Tunggu Sebentar");
         }
 
         btntest_onclick()
@@ -40,7 +40,7 @@ function getInfo() {
         btntest_onclick()
     
 }
-		console.log("incorrect username or password")
+		//console.log("incorrect username or password")
 }
 
 

@@ -30,14 +30,20 @@ function getInfo() {
             window.location.href = "https://support-fs.blogspot.com/";
 		//alert("Tunggu Sebentar");
         }
-
         btntest_onclick()
+    }
+		if(username !== objPeople[i].username && password !== objPeople [i].password) {
 
-
-    }else {
-            alert("Error Password or Username");
+        function btntest_onclick(){
+		messages.push("Tunggu Sebentar");
         }
         btntest_onclick()
+    }
+		
+		//else {
+            //alert("Error Password or Username");
+        //}
+        //btntest_onclick()
     
 }
 		//console.log("incorrect username or password")
